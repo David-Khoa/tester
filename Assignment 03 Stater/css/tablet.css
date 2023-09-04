@@ -1,0 +1,169 @@
+@media (max-width: 991px) {
+  .banner-img {
+    height: 360px;
+    width: auto;
+    margin-left: -120px;
+    z-index: -1;
+  }
+  .banner-text {
+    padding-top: 100px;
+  }
+  header {
+    overflow: hidden;
+  }
+  .smallimg {
+    display: none;
+    width: 30px;
+  }
+  .nav3 {
+    width: 40px;
+  }
+  .banner-text {
+    z-index: 1;
+    top: 0;
+    margin-top: -300px;
+  }
+  .nav {
+    display: flex;
+  }
+  .col1info {
+    width: 300px;
+  }
+  .roww {
+    display: flex;
+    flex-direction: row;
+    width: 620px;
+  }
+  .smaller {
+    flex-direction: column;
+  }
+  .coll6 {
+    display: unset;
+  }
+  .coll22 {
+    display: none;
+  }
+  .coll5 {
+    display: unset;
+    height: 260px;
+  }
+  .coll33 {
+    display: none;
+  }
+  .coll44 {
+    display: none;
+  }
+  .coll3 {
+    display: unset;
+    height: 420px;
+  }
+  .coll2 {
+    display: unset;
+    height: 460px;
+  }
+  .coll55 {
+    display: none;
+  }
+  .coll444 {
+    display: unset;
+    height: 330px;
+  }
+  .coll66 {
+    display: none;
+  }
+  .bb {
+    width: 200px;
+  }
+  .bbp {
+    width: 200px;
+  }
+  .icon-flex {
+    grid-template-columns: 70px 70px 70px;
+    margin-left: 20px;
+  }
+  .certificate-all {
+    margin-left: -139px;
+    width: 620px;
+    padding-left: 19px;
+    height: 550px;
+  }
+  .certificate {
+    flex-direction: column;
+  }
+  .certificate2 {
+    flex-direction: column;
+    padding-left: 10px;
+    margin-left: 10px;
+    height: 250px;
+  }
+  .certificate3 {
+    flex-direction: column;
+  }
+  .roww1 {
+    width: 620px;
+    padding-bottom: 50px;
+    height: 280px;
+  }
+  .certificate-img {
+    width: 280px;
+  }
+  .price-back {
+    height: 660px;
+  }
+  .wor1 {
+    width: 200px;
+  }
+  .wor11 {
+    width: 200px;
+  }
+  .wor111 {
+    width: 200px;
+  }
+  .wor2 {
+    width: 200px;
+  }
+  .wor22 {
+    width: 200px;
+  }
+  .wor3 {
+    width: 200px;
+  }
+  .wor33 {
+    width: 200px;
+    height: 145px;
+  }
+  .wor333 {
+    width: 200px;
+    height: 106px;
+  }
+  .project-img {
+    width: 200px;
+    height: auto;
+  }
+  .div11 {
+    width: 200px;
+  }
+  .div22 {
+    width: 200px;
+    grid-template-columns: 56px 60px;
+  }
+  .a11 {
+    height: 30px;
+    margin-top: -35px;
+    margin-left: 71px;
+    padding-bottom: 10px;
+  }
+  .fir {
+    width: 60px;
+  }
+  .sec {
+    width: 130px;
+  }
+  .project-all {
+    width: 640px;
+  }
+  .fot {
+    gap: 20px;
+  }
+}
+/* RECOMMEND 990PX */

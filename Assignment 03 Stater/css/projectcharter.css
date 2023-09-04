@@ -1,0 +1,267 @@
+/* Desktop */
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+h3 {
+  color: blue;
+  padding: 10px 0 5px 0;
+}
+.h2div {
+  margin-left: 20px;
+  margin-right: 20px;
+  border-bottom: rgb(160, 160, 160) 1px solid;
+}
+.contain-all {
+  background-color: blue;
+  padding-bottom: 20px;
+}
+.contain {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 20px;
+  height: 713px;
+  width: 100%;
+  padding: 20px;
+}
+.cool1 {
+  display: grid;
+  grid-template-rows: 6fr 4fr;
+  gap: 20px;
+}
+.cool2 {
+  display: grid;
+  grid-template-rows: 6fr 4fr;
+  gap: 20px;
+}
+.c1 {
+  background-color: azure;
+}
+.c2 {
+  background-color: azure;
+}
+.c3 {
+  background-color: azure;
+}
+.c4 {
+  background-color: azure;
+}
+.c5 {
+  background-color: azure;
+  height: 100%;
+}
+.icon-doc-text-inv {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+.goal {
+  display: flex;
+  gap: 30px;
+  margin-top: 10px;
+  margin-left: 25px;
+  margin-right: 20px;
+  border-bottom: rgb(200, 200, 200) 1px solid;
+}
+.scopes {
+  display: flex;
+  gap: 30px;
+}
+.scopesp {
+  width: 250px;
+  margin-top: 20px;
+}
+.scopesh5 {
+  margin: 20px 0 10px 0;
+}
+.scopes-alt {
+  margin-left: 40px;
+}
+.icon-user {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.team {
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: -10px;
+}
+.teamsp2 {
+  margin-top: -10px;
+  width: 200px;
+}
+.primary {
+  display: flex;
+  margin-top: 20px;
+}
+.icon-star-1 {
+  margin: 5px 25px 0 25px;
+  font-size: 24px;
+}
+.primaryp {
+  width: 250px;
+}
+.num {
+  background-color: rgb(161, 124, 254);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin: 20px 25px 0px 30px;
+}
+.nump {
+  padding: 6px;
+  color: azure;
+}
+.Date {
+  display: flex;
+  margin-top: 20px;
+}
+.Datep {
+  border-bottom: 1px rgb(0, 255, 255) dotted;
+  width: 100%;
+  padding-left: 20px;
+  margin-bottom: 50px;
+  height: 90px;
+  padding-right: 20px;
+  margin-right: 20px;
+}
+
+.dat {
+  margin-top: -10px;
+}
+.ab {
+  height: 20px;
+  width: 80px;
+  background-color: red;
+  color: azure;
+  border: 1px black solid;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 5px;
+}
+/* Desktop */
+/* Tablet */
+@media (max-width: 991px) {
+  .contain {
+    grid-template-columns: 1fr;
+    height: 2900px;
+    padding-bottom: 0;
+  }
+  .goal {
+    flex-direction: column;
+    padding-left: 20px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .icon-doc-text-inv {
+    width: 20px;
+    margin: auto;
+  }
+  .c1 {
+    padding-bottom: 20px;
+    padding: 20px;
+  }
+  .scopes {
+    flex-direction: column;
+  }
+  .scopesp {
+    width: 600px;
+    margin-top: -10px;
+  }
+  .scopesh5 {
+    margin-bottom: 30px;
+  }
+  .team {
+    flex-direction: column;
+  }
+  .icon-user {
+    width: 30px;
+    margin: auto;
+  }
+  .teamp {
+    margin-left: 40px;
+  }
+  .c2 {
+    padding-bottom: 20px;
+    padding: 20px;
+  }
+  .c3 {
+    padding-bottom: 20px;
+    padding: 20px;
+  }
+  .primary {
+    flex-direction: column;
+  }
+  .icon-star-1 {
+    width: 30px;
+    margin: auto;
+  }
+  .primaryp {
+    margin-left: 40px;
+  }
+  .Date {
+    flex-direction: column;
+    margin-top: -10px;
+    margin-bottom: -50px;
+  }
+  .c4 {
+    padding: 20px;
+  }
+  .c5 {
+    padding: 20px 20px 0 20px;
+  }
+
+  .Datep {
+    height: 70px;
+  }
+  .h2div {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .num {
+    margin-left: 20px;
+  }
+}
+/* Tablet */
+/* Mobile */
+@media (max-width: 576px) {
+  .c1 {
+    width: 300px;
+    padding-bottom: 0;
+  }
+  .c2 {
+    width: 300px;
+  }
+  .c3 {
+    width: 300px;
+  }
+  .c4 {
+    width: 300px;
+  }
+  .c5 {
+    width: 300px;
+  }
+  .scopesp {
+    width: 200px;
+  }
+  .scopes-alt {
+    margin-left: 20px;
+  }
+  .teamp {
+    margin-left: 20px;
+  }
+  .primaryp {
+    margin-left: 20px;
+    width: 220px;
+  }
+  .Datep {
+    height: 85px;
+  }
+}
+/* Mobile */

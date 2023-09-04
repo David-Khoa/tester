@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      .all {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .smaller {
+        display: flex;
+        gap: 10px;
+      }
+      .cool1 {
+        width: 300px;
+        height: 600px;
+        background-color: brown;
+      }
+      .cool2 {
+        width: 300px;
+        height: 600px;
+        background-color: brown;
+        display: none;
+      }
+      .cool3 {
+        width: 300px;
+        height: 600px;
+        background-color: brown;
+        display: none;
+      }
+      .cool4 {
+        width: 300px;
+        height: 400px;
+        background-color: brown;
+      }
+      .cool5 {
+        width: 300px;
+        height: 400px;
+        background-color: brown;
+        display: none;
+      }
+      .cool6 {
+        width: 300px;
+        height: 400px;
+        background-color: brown;
+        display: none;
+      }
+      .cool22 {
+        width: 300px;
+        height: 600px;
+        background-color: brown;
+      }
+      .cool33 {
+        width: 300px;
+        height: 600px;
+        background-color: brown;
+      }
+      .cool44 {
+        width: 300px;
+        height: 600px;
+        background-color: brown;
+      }
+      .cool55 {
+        width: 300px;
+        height: 600px;
+        background-color: brown;
+      }
+      .cool444 {
+        width: 300px;
+        height: 600px;
+        background-color: brown;
+        display: none;
+      }
+      .cool66 {
+        width: 300px;
+        height: 600px;
+        background-color: brown;
+      }
+      @media (max-width: 991px) {
+        .all {
+          display: flex;
+          flex-direction: row;
+        }
+        .smaller {
+          flex-direction: column;
+        }
+        .cool6 {
+          display: unset;
+        }
+        .cool22 {
+          display: none;
+        }
+        .cool5 {
+          display: unset;
+        }
+        .cool33 {
+          display: none;
+        }
+        .cool44 {
+          display: none;
+        }
+        .cool3 {
+          display: unset;
+        }
+        .cool2 {
+          display: unset;
+        }
+        .cool55 {
+          display: none;
+        }
+        .cool444 {
+          display: unset;
+        }
+        .cool66 {
+          display: none;
+        }
+      }
+      @media (max-width: 576px) {
+        .all {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    </style>
+    <div class="all">
+      <div class="smaller">
+        <div class="cool1">
+          <h2>KINH NGHIEM</h2>
+        </div>
+        <div class="cool6">
+          <h2>KY NANG</h2>
+        </div>
+        <div class="cool22">
+          <h2>HOC VAN</h2>
+        </div>
+        <div class="cool5">
+          <h2>NGON NGU</h2>
+        </div>
+        <div class="cool33">
+          <h2>HOAT DONG</h2>
+        </div>
+      </div>
+      <div class="smaller">
+        <div class="cool44">
+          <h2>SO THICH</h2>
+        </div>
+        <div class="cool3">
+          <h2>HOAT DONG</h2>
+        </div>
+        <div class="cool2">
+          <h2>HOC VAN</h2>
+        </div>
+        <div class="cool55">
+          <h2>NGON NGU</h2>
+        </div>
+        <div class="cool66">
+          <h2>KY NANG</h2>
+        </div>
+
+        <div class="cool444">
+          <h2>SO THICH</h2>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
